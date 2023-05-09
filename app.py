@@ -9,12 +9,12 @@ app = Flask(__name__)
 
 @app.route("/", methods=["get"])
 def get_demo():
-    return "get success"
+    return "get success source"
 
 
 @app.route('/', methods=['POST'])
 def post_demo():
-    return "post success"
+    return "post success source"
 
 
 if __name__ == '__main__':
